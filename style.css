@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/cloudy-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    background: rgba(76, 19, 112, 0.717);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #09266f;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(138, 20, 33, 0.6);
+    border-radius: 10px;
+}
+
+.project, .service {
+    margin-bottom: 20px;
+}
+
+.project img, .service img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: rgba(133, 32, 135, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
